@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font: 12pt "";
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: "Almarai";
+}
+
+.book {
+    position: relative;
+}
+
+
+/* pagination */
+
+.contain {
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    width: 21.7cm;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.pagination {
+    border-radius: 6px;
+    background-color: #41abea;
+    list-style: none;
+    display: flex;
+}
+
+.pagination .page-item {
+    padding: 10px;
+}
+
+.page-item {
+    margin: 10px 0;
+}
+
+.pagination a {
+    text-decoration: none;
+}
+
+.print {
+    font-size: 20px;
+    padding: 10px 35px;
+    background: red;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.page {
+    width: 29.7cm;
+    min-height: 21cm;
+    padding: 0.5cm 1cm;
+    margin: 1cm auto;
+    border: 2px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.subpage {
+    padding: 0.1cm;
+    min-height: 19cm;
+    outline: 1cm #Fff solid;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.header {
+    background: #e7e7e7;
+    color: #000;
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.w-50.info p {
+    text-align: right;
+    direction: rtl;
+}
+
+
+/*start header*/
+
+
+/*end header*/
+
+
+/*start contan*/
+
+.Attend {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: #373738;
+    background: #e7e7e7;
+    color: #000;
+}
+
+thead tr th {
+    padding: 20px 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+tr,
+td {
+    border: 1.2px solid hsl(0deg 0% 61%);
+    text-transform: capitalize;
+}
+
+td {
+    font-weight: bold;
+    padding: 3px 5px;
+    font-size: 13px;
+}
+
+.first-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.agent-name {
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.date-agent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+/*end footer*/
+
+
+/*start page1*/
+
+
+/* footer */
+
+.footer .row {
+    background: #e7e7e7;
+    color: #000;
+    position: absolute;
+    left: 11px;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+
+.location p {
+    text-align: left;
+    /* direction: rtl; */
+}
+
+
+/*start table info*/
+
+table.info {
+    width: 100%;
+}
+
+.info thead {
+    background-color: #e7e7e7;
+    /* color: #00009d; */
+}
+
+@page {
+    size: landscape;
+    margin: 0;
+}
+
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        padding: 0.5cm 1cm;
+        background: initial;
+        page-break-after: always;
+        -webkit-print-color-adjust: exact;
+    }
+    td {
+        padding: 8px 4px;
+    }
+    .pagination,
+    .print {
+        display: none;
+    }
+}
+
+@page {
+    size: landscape;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Almarai";
+    src: url('ARBFONTS-ALMARAI-REGULAR.TTF');
+}

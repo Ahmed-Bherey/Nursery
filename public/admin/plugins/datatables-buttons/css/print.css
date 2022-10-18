@@ -1,0 +1,152 @@
+/*start header*/
+
+html,
+body,
+.wrapper {
+    overflow-x: hidden;
+}
+
+.header-center {
+    text-align: center;
+    background-color: #41abea;
+    margin-bottom: 50px;
+    position: relative;
+    padding-top: 20px;
+    color: #242582;
+    letter-spacing: 3px;
+    margin-bottom: 90px;
+}
+.space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-weight: 500;
+}
+.header-center p {
+    text-align: left;
+    margin-left: 20px;
+    color: #000;
+}
+
+.header-img {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.kayan-logo {
+    background-image: url('kayanLogo.png');
+    background-size: cover;
+    background-position: center;
+    width: 375px;
+    height: 200px;
+    margin: auto;
+}
+
+.header-center img {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: -10px;
+}
+
+.header-center h1 {
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+
+.space-between {
+    display: flex;
+    letter-spacing: 1.5px;
+    justify-content: flex-end;
+}
+
+.p-right {
+    padding-right: 20px;
+}
+
+
+/*end header*/
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background-color: #41abea;
+    /* color: #fff; */
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer-number {
+    display: flex;
+    align-items: center;
+}
+
+.nubmer-icon {
+    width: auto;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.footer .footer-img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.img-phone {
+    background-image: url(phone.png);
+}
+
+.footer-location {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 9px 15px;
+    border-radius: 0 0 40px 40px;
+}
+
+.img-location {
+    background-image: url('pin.png');
+}
+
+.img-mail {
+    background-image: url('email.png');
+}
+
+
+/*start table info*/
+
+table.info {
+    width: 100%;
+}
+
+.info thead {
+    background-color: #bcd8ef;
+    /* color: #00009d; */
+}
